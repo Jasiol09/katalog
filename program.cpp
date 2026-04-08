@@ -5,7 +5,8 @@
 
 using namespace std;
 
-int main() {
+// funkcja wykonująca całe zadanie
+void sortowanie() {
     const int N = 50000;
     int tab[N];
 
@@ -55,6 +56,9 @@ int main() {
     // komunikat na ekran
     cout << "Gotowe! Wynik zapisany do pliku." << endl;
     cout << "Czas: " << czas << " sekundy" << endl;
+}
 
+int main() {
+    sortowanie(); // wywołanie funkcji
     return 0;
 }
